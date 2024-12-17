@@ -3,5 +3,5 @@ package main
 import "net/http"
 
 func (app *application) healthCheckHandler(w http.ResponseWriter, r *http.Request) {
-	w.Write([]byte("Okay"))
+	w.Write([]byte("Okay Okay"))
 }
